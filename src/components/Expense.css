@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(140, 140, 140);
+}
+
+.expense-one {
+    border: 3px solid rgb(255, 255, 255);
+    width: 199px;
+    height: 120px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 792px;
+}
+
+.expense-two {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin: 0 auto;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(152, 189, 96);
+    padding: 3px;
+    width: 600px;
+    height: 80px;
+    font-size: 29px;
+    margin-bottom: 30px;
+    color: white;
+}
+
