@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.output {
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 45px;
+    font-size: 20px;
+    background-color: dimgray;
+    color: white;
+}
+
+.container {
+    margin: 80px 500px;
+    
+}
+
+.container input {
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container button {
+    margin-left: 10px;
+    height: 35px;
+    text-align: center;
+}
