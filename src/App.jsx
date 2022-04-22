@@ -1,7 +1,7 @@
 import "./App.css";
 import Comment from "./components/Comment";
 
-const mass = [
+const album = [
   {
     date: new Date(),
     text: 'I hope you enjoy learning React!',
@@ -32,7 +32,7 @@ const mass = [
 function App() {
   return (
     <div className="App">
-      {mass.map((elem)=>{
+      {album.map((elem)=>{
         return <Comment
         key={Math.random()}
         author={elem.author}
