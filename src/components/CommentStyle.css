@@ -1,0 +1,39 @@
+.cont {
+    display: flex;
+    width: 900px;
+}
+
+.Comment-date {
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+.Comment-text {
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+    margin: 10px;
+}
+
+.UserInfo {
+    padding-top: 6px;
+    border-radius: 20px;
+    width: 80px;
+    border-color: azure;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 20px;
+}
+.UserInfo-name {
+    margin: 6px;
+    color: white;
+    font-family: monospace;
+}
+
+.wrapper-text{
+    width: 120px;
+    height: 120px;
+}
