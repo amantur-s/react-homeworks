@@ -1,0 +1,38 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  box-shadow: 0 2px 8px 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 300px;
+  position: relative;
+  padding-top: 10px;
+}
+.box h4 {
+  width: 70%;
+}
+
+.item span {
+  display: block;
+  padding: 10px;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.container img {
+  border-radius: 10px;
+  width: 70%;
+}
