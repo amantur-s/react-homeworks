@@ -1,0 +1,31 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #741188;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.main-header h1 {
+  color: white;
+  text-align: center;
+}
+.main-header input {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 99px;
+  top: 22px;
+}
+.main-header label {
+  position: absolute;
+  right: 140px;
+  top: 30px;
+  color: white;
+}
